@@ -1,0 +1,155 @@
+.app{
+  position: relative;
+  top: -16px;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+ 
+  transition: transform 0.5s ease ; /* Transition for transform property */
+ 
+}
+
+
+.carousel.loaded {
+  transform: scale(1); /* Apply transform when the loaded state is true */
+
+
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    /* transform: translateY(-100%); */
+    transform: scale(1);
+     /* transform: rotateZ(0deg); */
+     /* transform: scaleX(1); */
+    /* transform: rotate(0deg); */
+  }
+  to {
+    opacity: 1;
+    /* transform: translateY(0); */
+    transform: scale(1.5);
+    /* transform: rotateZ(45deg); */
+    /* transform: scaleX(0.5); */
+    /* transform: rotate(360deg) */
+  }
+}
+
+.carousel.loaded img {
+  animation: slideIn 3s  ease-in-out ; 
+  /* animation-delay: 1sec;
+  animation-iteration-count: infinite; */
+  /* animation: slideIn 3s linear 4s infinite; */
+ 
+}
+
+.imgstyle{
+ 
+   height: 550px;
+  /* width: 100%; Set the image width to fill its container */
+  /* object-fit: cover; Cut the image equally from both sides */
+  filter: brightness(50%);
+  object-fit: cover;
+  
+  
+}
+
+
+.text-container {
+  position: absolute;
+  top: 30%;
+  left: 4%;
+  text-align: center;
+
+}
+
+.text {
+  /* color: rgb(252, 252, 252); */
+  color: white;
+ 
+  font-size:55px;
+  max-width: 560px;
+  line-height: 4.2rem;
+  
+}
+
+.applyNow{
+ font-size: 25px;
+ border-color: white; 
+ background:none;
+ /* outline: none; */
+ color: white;
+ border-top: none;
+ border-left: none;
+ border-right: none;
+}
+
+
+.applyNow:hover{
+   color: gray;
+   border-color: gray;
+}
+
+
+
+.controls{
+  font-size: 30px;
+  background-color: #1e2222;
+  color: white;
+  width: 100px;
+  position: absolute;
+  bottom: 46px;
+  user-select: none;
+  padding: 10px;
+  
+}
+
+.controls i {
+   cursor: pointer;
+   
+  
+}
+
+#CourseDetailSection{
+  background-color: #1e2222;
+  color: white;
+  height: 60px;
+
+}
+
+
+
+
+#table{
+  color: white;
+}
+
+
+
+
+@media(max-width:500px){
+  .text-container{
+    top: 15%;
+  }
+  .text{
+    font-size: 30px;
+    line-height: 2.5rem;
+  }
+
+  .imgstyle{
+    height: 430px;
+    object-position:  right;
+  }
+
+
+}
+
+@media(max-width:400px){
+  .imgstyle{
+    height: 270px;
+  }
+}

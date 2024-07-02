@@ -1,0 +1,312 @@
+.increasebuttonstyle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: -2px
+
+}
+
+
+.decreasebuttonstyle{
+   color: white;
+   background: none;
+   border: none;
+   margin-left: -5px;
+   font-size: 18px;
+   font-weight: bold;
+   
+   position: relative;
+   top: -2px
+}
+
+.valueStyle{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: white;
+  margin-left: 8px;
+  margin-right: 12px;
+}
+
+.addbuttonstyle{
+  background-color: rgb(244, 238, 238);
+  border-radius: 5px;
+  width: 115px;
+  text-align: center;
+  height: 28px;
+  background-color: #f26c20;
+  border: #f26c20;
+  
+}
+
+.valueStyles{
+  width: 50px;
+  margin-left: 6px;
+  margin-right: 12px;
+  text-align: center;
+  margin-top: 0px;
+  border-color: #f26c20;
+  border: none;
+  outline: none;
+  position: relative;
+  top: -2px
+  
+}
+
+
+.PlaceSection {
+    display: block;
+    margin: auto;
+    height: 33px;
+    width: 312px;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #8c96ab;
+   
+}
+
+.linestyle{
+
+  width: 310px;
+  color: black;
+}
+
+.PlaceSection{
+  margin-bottom: -10px;
+  position: relative;
+  top: -130px;
+}
+
+.User-Pay{
+ 
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  position: relative;
+  top: -130px;
+}
+
+#First{
+  margin-left: -166px;
+  margin-bottom: 3px;
+}
+
+
+#Second{
+  margin-left: -78px;
+  margin-bottom: 3px;
+}
+
+#Third{
+  margin-left: -250px;
+  margin-bottom: 3px;
+}
+
+#Four{
+  margin-left: -35px;
+  margin-top: 25px;
+}
+
+#fileName{
+  color: #f26c20;
+  
+}
+
+
+.data{
+  font-size: 15px;
+  color: red;
+}
+
+
+.AmountSection{
+  text-align: center;
+  margin-top: -26px;
+  margin-right: -190px;
+  color: green;
+  font-size: 19px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.Payment{
+  text-align: center;
+  /* color: #f26c20; */
+  font-size: 21px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom: 1px solid #f26c20;
+  color: white;
+
+}
+
+.form-control{
+  width: 320px;
+  
+}
+
+.submit{
+  text-align: center;
+  position: relative;
+  top: -130px;
+}
+
+#FormApplication{
+  background-color: black;
+  height: 700px;
+  width: 100%;
+  position: relative;
+  top: -15px
+}
+
+
+.PaymentDetails{
+  font-size: 21px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  border-radius: 5px;
+ 
+
+}
+
+.PaymentNameFirst{
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  margin-left: -20px;
+  
+}
+
+.PaymentNameSecond{
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  
+}
+
+
+.Value{
+  color: rgb(100, 87, 87);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 10px;
+}
+
+
+@media (max-width: 760px){
+  .paymentSection{
+    position: relative;
+    left: 200px;
+    
+    
+  }
+ 
+
+  .PaymentDetails{
+    width:330px;
+    height: 130px;
+    
+  }
+   
+  .PlaceSection{
+    top: 30px
+  }
+
+  .User-Pay{
+    top: 30px
+  }
+
+  .submit{
+    top: 30px
+  }
+}
+
+@media (max-width:550px){
+  .paymentSection{
+    position: relative;
+    left: 50px;
+    
+    
+  }
+}
+
+@media (max-width:400px){
+  .paymentSection{
+    position: relative;
+    left: 0px;
+    
+    
+  }
+}
+
+@media (max-width:330px){
+  .paymentSection{
+    position: relative;
+  }
+  .PaymentDetails{
+    width:  300px;
+    height: 130px
+      
+  }
+    
+  
+}
+
+
+@media (max-width: 760px){
+  
+  #FormApplication{
+   overflow-x: hidden;
+  } 
+
+
+  #First{
+    margin-left: -145px;
+    margin-bottom: 3px;
+  }
+  
+  
+  #Second{
+    margin-left: -50px;
+    margin-bottom: 3px;
+  }
+  
+  #Third{
+    margin-left: -225px;
+    margin-bottom: 3px;
+  }
+  
+  #Four{
+    margin-left: -15px;
+    margin-top: 25px;
+  }
+  
+  .data{
+    font-size: 12px;
+    color: red;
+  }
+
+  .PlaceSection{
+    width: 300px
+  }
+
+  .form-control{
+    width: 300px;
+    
+  }
+}
+
+
+

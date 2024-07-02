@@ -1,0 +1,11 @@
+#root{
+   
+    user-select: none;
+ 
+}
+
+html {
+    scroll-behavior: auto;
+   
+  }
+

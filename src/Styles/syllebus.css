@@ -1,0 +1,41 @@
+
+
+.SyllebusSection{
+
+    background-color: rgb(244, 244, 244);
+    padding : 5px 40px 10px;
+    /* padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    */
+    border-radius: 50px;
+} 
+
+.collapsible{
+    background-color:  rgb(244, 244, 244) ;
+    padding: 10px 20px 10px;
+    color: #192f60;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    cursor: pointer;
+
+}
+
+
+
+.collapsible:hover{
+    background-color: aliceblue;
+}
+
+.content{
+    padding-left: 50px;
+}
+
+.SQLHeading{
+    color: rgb(188, 17, 46);
+}
